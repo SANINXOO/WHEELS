@@ -1,0 +1,206 @@
+.nav-main {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 10px;
+  
+}
+
+.nav-main a span {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-main a :hover {
+    color: rgb(237, 232, 232);
+}
+
+/* no need gift head  */
+.nav-gifts {
+    display: none;
+}
+/* navbar section  */
+.navbar {
+    background-color: #200404;
+    border: 1px solid #f9ece6;
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #070201, #a10909);
+    margin-top: 0.5px;
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 2px;
+
+
+}
+
+.display-username .fa-user{
+    margin-right: 10px;
+    background-color: white;
+    padding: 7px 10px;
+    color: rgb(2, 7, 61);
+    border-radius: 50%;
+}
+.display-username span{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.logggggg{
+    margin-left: 10px;
+    margin-top: 10px; 
+    font-size: 20px;
+}
+.header-left{
+    width: 10%;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+.back-btn{
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+
+/* .bordertop{
+    border-bottom: 1px solid rgb(243, 241, 241);
+    height:50px;
+    width: 100vw;
+    
+
+} */
+.bordertop2{
+    border-right: 1px solid rgb(243, 241, 241);
+    height: 50px;
+    width: 20%;
+    min-width: 100px;
+    text-align: center;
+}
+.bordertop2 img{
+    width: 60%;
+    min-width: 90px;
+}
+.borderleft{
+    border-right: 1px solid rgb(243, 241, 241);
+    height: 100vh;
+    width: 20%;
+    padding: 10px;
+    min-width: 100px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(105, 104, 104, 0.15) 0px 0px 0px 1px;
+}
+.main1content{
+    background-image: url(../../../../public/3977C73D-BC6F-463F-966E-B4FF623E41D5.jpeg) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+    width: 80%;
+    background-color:rgb(235, 235, 235);
+    height: 100vh;
+    padding: 15px;
+}
+.main1{
+display: flex;
+justify-content: space-between;
+}
+.main1content2{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 14px;
+   
+   
+}
+.cardsm{
+    background-color: white;
+    width: 24%;
+    min-width: 270px;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(183, 183, 184, 0.15) 0px 0px 0px 1px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main1contentborder1 {
+    border-bottom: 1px solid rgb(209, 207, 207);
+    margin-top: 2%;
+}
+.borderleftcontent{
+    position: absolute;
+    left: 0%;
+}
+.catogories{
+    font-family: 'Italianno', cursive; 
+    font-size: 30px; 
+    /* text-align: center; */
+    padding-left: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    height: 50px;
+    margin-bottom: 10px;
+}
+.catogoryname{
+    height: 40px;
+    background-color:aliceblue;
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.categorynames-only{
+    width: 55%;
+}
+.link3{
+    color:black;
+    text-decoration: none;
+}
+.link3:hover{
+    color: black;
+}
+.delete-btn{
+    margin-left: 10px;
+}
+.back-btn{
+    color: white;
+}
+.edit-btn{
+    margin-left: 30px;
+}
+.Linker-Admin{
+    color: #131212;
+}
+
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:575.98px) {
+    .nav-main {
+        display: inline-block;
+        /* justify-content: center; */
+        text-align: center;
+        gap: 13px;
+        margin-top: 15px;
+        padding: 10px;
+
+    }
+    .nav-gifts {
+        font-weight: 750;
+        display: inline;
+        font-size: 26px;
+        letter-spacing: 1px;
+
+    }
+}
